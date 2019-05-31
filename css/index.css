@@ -237,17 +237,17 @@ hr {
 button{
     background-color: white;
     border-radius: 10px;
-    border: 2px solid black; 
+    border: 1.5px solid black; 
     width:110px;
     height:35px;
-    font-weight: bold;
 }
 
 .hrOne{
     width: 800px;
 }
 
-.bottomSection{
+.crossPageSection{
     width: 800px;
+    margin-left: 10px;
     margin-bottom: 20px;
 }
