@@ -184,3 +184,24 @@ footer nav a {
 .boxes .box.boxTen{
     background-color: dodgerblue;
 }
+
+header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width:800px;
+    margin:20px auto 20px auto;
+}
+
+header nav{
+    display: flex;
+    justify-content: space-around;
+    width: 600px;
+}
+
+header nav a{
+    text-decoration: none;
+    color: black;
+    flex-flow: row nowrap;
+    width: 100px;
+}
