@@ -211,3 +211,38 @@ header img{
     display:flex;
     align-content: center;
 }
+
+.middleSection{
+    display: flex;
+    flex-flow: row wrap;
+    width: 800px;
+    height: 1000px;
+    margin:20px auto 20px auto;
+}
+
+.middleSection .aboutDiv{
+    display: flex;
+    flex-direction: column;
+    height: 450px;
+    justify-content: space-around;
+    width: 375px;
+    margin: 10px;
+}
+
+hr {
+    width:375px;
+    border-top: 1.2px dashed black;
+}
+
+button{
+    background-color: white;
+    border-radius: 10px;
+    border: 2px solid black; 
+    width:110px;
+    height:35px;
+    font-weight: bold;
+}
+
+.hrOne{
+    width: 800px;
+}
